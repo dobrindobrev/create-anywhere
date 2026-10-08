@@ -1,0 +1,31 @@
+{
+  "telegram": {
+    "enabled": true
+  },
+  "whatsapp": {
+    "enabled": false
+  },
+  "viber": {
+    "enabled": false,
+    "webhookPort": 8080
+  },
+  "session": {
+    "maxConcurrent": 5,
+    "idleTimeoutMs": 1800000,
+    "maxSessionDurationMs": 7200000
+  },
+  "logging": {
+    "level": "info"
+  },
+  "projects": {
+    "my-app": "/absolute/path/to/my-app"
+  },
+  "allowlist": {
+    "telegram": [],
+    "whatsapp": [],
+    "viber": []
+  },
+  "globalEnv": {},
+  "defaultAutoApprove": false,
+  "model": "sonnet"
+}

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+
+# Secrets & local state
+.env
+.env.*
+!.env.example
+config/default.json
+auth_info_baileys/
+
+# Bot-generated project sandboxes
+projects/
